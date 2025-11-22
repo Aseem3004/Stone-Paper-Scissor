@@ -1,0 +1,64 @@
+body {
+    background-image: url("SPSLogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    background-color: #242323;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.choice:hover {
+    opacity: 0.5;
+    background-color: white;
+}
+.score-board {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#msg{
+    background-color: #D1F7C4 ;
+    color: #2E8B57 ;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.choices {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
